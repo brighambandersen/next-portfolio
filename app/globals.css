@@ -1,3 +1,72 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 * {
-  background-color: green;
+  font-family: 'Rubik', sans-serif;
+
+  /*  Color scheme */
+  --primary: #215481;
+  --secondary: #808080;
+  --whiteGray: #f7f7f7;
+
+  /* Helper colors */
+  --secondaryDark: #6d6d6d;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  /* Width */
+  width: 10px;
+}
+::-webkit-scrollbar-thumb {
+  /* Bar */
+  background: var(--secondary);
+}
+::-webkit-scrollbar-thumb:hover {
+  /* Bar on hover */
+  background: var(--secondaryDark);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: var(--whiteGray);
+}
+
+code {
+  font-family: 'Consolas', 'Courier New', Courier, monospace;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--primary);
+}
+
+p {
+  font-size: large;
+}
+
+a {
+  color: var(--secondary);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+section {
+  padding: 6rem 0;
+  min-height: 100vh;
 }
