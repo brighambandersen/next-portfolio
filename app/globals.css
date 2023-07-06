@@ -9,6 +9,7 @@
 
   /*  Color scheme */
   --primary: #215481;
+  --primaryLight: #557597;
   --secondary: #808080;
   --whiteGray: #f7f7f7;
 
@@ -69,4 +70,8 @@ a:hover {
 section {
   padding: 6rem 0;
   min-height: 100vh;
+}
+
+nav > ul {
+  list-style-type: none;
 }
