@@ -88,37 +88,39 @@ export interface Page {
   icon?: ReactElement;
 }
 
+const NAV_ICON_SIZE = 24;
+
 /* Pages of this portfolio website */
 export const pages: Page[] = [
   {
     name: 'Home',
     component: Home,
     path: '/',
-    icon: <MdHome />
+    icon: <MdHome size={NAV_ICON_SIZE} />
   },
   {
     name: 'Resume',
     component: Resume,
     path: '/resume',
-    icon: <MdDescription />
+    icon: <MdDescription size={NAV_ICON_SIZE} />
   },
   {
     name: 'Projects',
     component: Projects,
     path: '/projects',
-    icon: <FaDesktop />
+    icon: <FaDesktop size={NAV_ICON_SIZE} />
   },
   {
     name: 'Designs',
     component: Designs,
     path: '/designs',
-    icon: <MdPhotoLibrary />
+    icon: <MdPhotoLibrary size={NAV_ICON_SIZE} />
   },
   {
     name: 'Contact',
     component: Contact,
     path: '/contact',
-    icon: <MdAccountBox />
+    icon: <MdAccountBox size={NAV_ICON_SIZE} />
   }
 ];
 
