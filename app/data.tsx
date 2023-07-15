@@ -124,6 +124,8 @@ export const pages: Page[] = [
   }
 ];
 
+export const BASE_WEBSITE_TITLE = "Brigham Andersen's Portfolio";
+
 // Home ***********************************************************************************************
 
 /* List of my latest youtube videos with embed links - used on Home page */
