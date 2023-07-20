@@ -9,8 +9,10 @@ function RootLayout({ children }: { children: React.ReactNode }) {
       <Head>
         <title>{BASE_WEBSITE_TITLE}</title>
       </Head>
-      <Navbar />
-      {children}
+      <body className='bg-whiteGray'>
+        <Navbar />
+        {children}
+      </body>
     </>
   );
 }
