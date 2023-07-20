@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import React from 'react';
 import PageHeader from '@/app/components/PageHeader';
 import WebVideo from '@/app/components/WebVideo';
