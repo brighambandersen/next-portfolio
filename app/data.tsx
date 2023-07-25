@@ -624,7 +624,7 @@ export const contactMethods: ContactMethod[] = [
   {
     name: 'LinkedIn',
     icon: BsLinkedin,
-    link: 'https://www.linkedin.com/in/brighamband',
+    link: 'https://www.linkedin.com/in/brighamandersen',
     tooltipTitle: 'Connect with me on LinkedIn'
   },
   {
