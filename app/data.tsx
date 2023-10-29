@@ -160,7 +160,7 @@ export const RESUME_GDRIVE_URL = `${GDRIVE_BASE_URL}${RESUME_GDRIVE_ID}#view=fit
 // "&toolbar=0" removes the toolbar so they can't download the pdf as easily (no download bar)
 
 const GH_SEARCH_BASE_URL =
-  'https://github.com/brighamandersen?tab=repositories&q=';
+  'https://github.com/brighambandersen?tab=repositories&q=';
 /* My top languages - used on '/#resume' */
 export const languages = [
   {
@@ -237,7 +237,7 @@ export const projects: Project[] = [
   {
     id: '47fund',
     name: 'Silver Fund Web App',
-    url: 'https://47fund.brighamandersen.com',
+    url: 'https://47fund.brighambandersen.com',
     srcCode: 'https://github.com/brighambandersen/47fund',
     tags: ['work', 'side'],
     description:
@@ -265,7 +265,7 @@ export const projects: Project[] = [
   {
     id: 'comics',
     name: 'Comics Browser',
-    url: 'https://comics.brighamandersen.com',
+    url: 'https://comics.brighambandersen.com',
     srcCode: 'https://github.com/brighambandersen/comics',
     tags: ['school'],
     description:
@@ -305,7 +305,7 @@ export const projects: Project[] = [
   {
     id: 'groceries',
     name: 'Mother Earth Groceries',
-    url: 'https://groceries.brighamandersen.com',
+    url: 'https://groceries.brighambandersen.com',
     srcCode: 'https://github.com/brighambandersen/groceries',
     tags: ['school'],
     description:
@@ -351,7 +351,7 @@ export const projects: Project[] = [
   {
     id: 'jokester',
     name: 'Jokester',
-    url: 'https://jokester.brighamandersen.com',
+    url: 'https://jokester.brighambandersen.com',
     srcCode: 'https://github.com/brighambandersen/jokester',
     tags: ['side'],
     description:
@@ -371,7 +371,7 @@ export const projects: Project[] = [
   {
     id: 'k9-directory',
     name: 'K9 Directory',
-    url: 'https://k9.brighamandersen.com',
+    url: 'https://k9.brighambandersen.com',
     srcCode: 'https://github.com/brighambandersen/k9-directory',
     tags: ['side'],
     description:
@@ -401,7 +401,7 @@ export const projects: Project[] = [
   {
     id: 'nba-insider-hub',
     name: 'NBA Insider Hub',
-    url: 'https://nba.brighamandersen.com',
+    url: 'https://nba.brighambandersen.com',
     srcCode: 'https://github.com/brighambandersen/nba-insider-hub',
     tags: ['school'],
     description:
@@ -411,7 +411,7 @@ export const projects: Project[] = [
   {
     id: 'no-end-insight',
     name: 'No End Insight',
-    url: 'https://insight.brighamandersen.com',
+    url: 'https://insight.brighambandersen.com',
     srcCode: 'https://github.com/brighambandersen/no-end-insight',
     tags: ['school', 'side', 'beta'],
     description:
@@ -427,7 +427,7 @@ export const projects: Project[] = [
   {
     id: 'ontheline',
     name: 'On The Line',
-    url: 'https://ontheline.brighamandersen.com',
+    url: 'https://ontheline.brighambandersen.com',
     srcCode: 'https://github.com/brighambandersen/on-the-line',
     tags: ['side'],
     description:
@@ -457,7 +457,7 @@ export const projects: Project[] = [
   {
     id: 'photography',
     name: 'Photography',
-    url: 'https://photography.brighamandersen.com',
+    url: 'https://photography.brighambandersen.com',
     srcCode: 'https://github.com/brighambandersen/photography',
     tags: ['school'],
     description:
@@ -467,7 +467,7 @@ export const projects: Project[] = [
   {
     id: 'piano',
     name: 'Piano',
-    url: 'https://piano.brighamandersen.com',
+    url: 'https://piano.brighambandersen.com',
     srcCode: 'https://github.com/brighambandersen/piano',
     tags: ['side'],
     description:
@@ -477,7 +477,7 @@ export const projects: Project[] = [
   {
     id: 'ponderizer',
     name: 'Ponderizer',
-    url: 'https://ponderizer.brighamandersen.com',
+    url: 'https://ponderizer.brighambandersen.com',
     srcCode: 'https://github.com/brighambandersen/ponderizer',
     tags: ['school'],
     description:
@@ -487,7 +487,7 @@ export const projects: Project[] = [
   {
     id: 'portfolio',
     name: 'Portfolio (This Website)',
-    url: 'https://brighamandersen.com',
+    url: 'https://brighambandersen.com',
     srcCode: 'https://github.com/brighambandersen/portfolio',
     tags: ['side', 'work'],
     description:
@@ -497,7 +497,7 @@ export const projects: Project[] = [
   {
     id: 'scoreboard',
     name: 'Scoreboard',
-    url: 'https://scoreboard.brighamandersen.com',
+    url: 'https://scoreboard.brighambandersen.com',
     srcCode: 'https://github.com/brighambandersen/scoreboard',
     tags: ['side'],
     description:
@@ -517,7 +517,7 @@ export const projects: Project[] = [
   {
     id: 'simple-calculator',
     name: 'Simple Calculator',
-    url: 'https://calculator.brighamandersen.com',
+    url: 'https://calculator.brighambandersen.com',
     srcCode: 'https://github.com/brighambandersen/simple-calculator',
     tags: ['side'],
     description:
@@ -527,7 +527,7 @@ export const projects: Project[] = [
   {
     id: 'simple-counter',
     name: 'Simple Counter',
-    url: 'https://counter.brighamandersen.com',
+    url: 'https://counter.brighambandersen.com',
     srcCode: 'https://github.com/brighambandersen/simple-counter',
     tags: ['side'],
     description:
@@ -537,7 +537,7 @@ export const projects: Project[] = [
   {
     id: 'snake',
     name: 'Snake',
-    url: 'https://snake.brighamandersen.com',
+    url: 'https://snake.brighambandersen.com',
     srcCode: 'https://github.com/brighambandersen/snake',
     tags: ['side'],
     description:
@@ -547,7 +547,7 @@ export const projects: Project[] = [
   {
     id: 'svelter',
     name: 'Svelter',
-    url: 'https://svelter.brighamandersen.com',
+    url: 'https://svelter.brighambandersen.com',
     srcCode: 'https://github.com/brighambandersen/svelter',
     tags: ['side'],
     description:
@@ -557,7 +557,7 @@ export const projects: Project[] = [
   {
     id: 'tictactoe',
     name: 'Tic Tac Toe',
-    url: 'https://tictactoe.brighamandersen.com',
+    url: 'https://tictactoe.brighambandersen.com',
     srcCode: 'https://github.com/brighambandersen/tictactoe',
     tags: ['side'],
     description:
@@ -567,7 +567,7 @@ export const projects: Project[] = [
   {
     id: 'timekeeper',
     name: 'Timekeeper',
-    url: 'https://timekeeper.brighamandersen.com',
+    url: 'https://timekeeper.brighambandersen.com',
     srcCode: 'https://github.com/brighambandersen/timekeeper',
     tags: ['side', 'beta'],
     description:
@@ -587,7 +587,7 @@ export const projects: Project[] = [
   {
     id: 'vbb-portal',
     name: 'VBB Mentoring Portal',
-    url: 'https://vbb.brighamandersen.com',
+    url: 'https://vbb.brighambandersen.com',
     srcCode: 'https://github.com/brighambandersen/vbb-portal',
     tags: ['work', 'side'],
     description:
@@ -597,7 +597,7 @@ export const projects: Project[] = [
   {
     id: 'weather-rain-or-shine',
     name: 'Weather Rain or Shine',
-    url: 'https://weather.brighamandersen.com',
+    url: 'https://weather.brighambandersen.com',
     srcCode: 'https://github.com/brighambandersen/weather-rain-or-shine',
     tags: ['school'],
     description:
@@ -624,7 +624,7 @@ export const contactMethods: ContactMethod[] = [
   {
     name: 'LinkedIn',
     icon: BsLinkedin,
-    link: 'https://www.linkedin.com/in/brighamandersen',
+    link: 'https://www.linkedin.com/in/brighambandersen',
     tooltipTitle: 'Connect with me on LinkedIn'
   },
   {
